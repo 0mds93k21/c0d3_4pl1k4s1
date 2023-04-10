@@ -6,6 +6,11 @@ $(function () {
 
             bar += ' <div class="swiper-slide">';
                 bar += ' <a href="javascript:void(0)">';
+                    bar += ' <img src="/assets/img/home/slider/1.png" alt="Myzuu" />';
+                bar += ' </a>';
+            bar += ' </div>';
+            bar += ' <div class="swiper-slide">';
+                bar += ' <a href="javascript:void(0)">';
                     bar += ' <img src="https://sc.myzuu.my.id/assets/img/home/slider/lebaran-spesial.png" alt="Myzuu" />';
                 bar += ' </a>';
             bar += ' </div>';
