@@ -316,23 +316,6 @@ const urlKategori = [
   },
 
   {
-    "nama": "Hyper Front",
-    "cekID": "",
-    "gambar": "https://sc.myzuu.my.id/assets/img/produk/game/hyper-front/myzuu.png",
-    "kode": "1InputGame",
-    "categoryKe1": {
-      "nama": "Star Quartz",
-      "url": "umum-421060",
-      "data": "grid"
-    },
-    "categoryKe2": {
-      "nama": "",
-      "url": "",
-      "data": "list"
-    }
-  },
-
-  {
     "nama": "Super Sus",
     "cekID": "",
     "gambar": "https://sc.myzuu.my.id/assets/img/produk/game/super-sus/myzuu.png",
