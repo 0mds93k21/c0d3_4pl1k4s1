@@ -9,10 +9,10 @@ $(function () {
         bar += '</button>';
     bar += '</a>';
 
-    bar += '<a href="https://myzuu.webtoko.net/akun/?page=coin">';
+    bar += '<a href="https://myzuu.webtoko.net/digital/200943">';
         bar += '<button class="button-myzuu-produk2">';
             bar += '<img src="https://sc.myzuu.my.id/assets/img/home/event/2.png" alt="Myzuu">';
-            bar += '<p>Coin</p>';
+            bar += '<p>Coin Test</p>';
             bar += '<h4>Klik, Punya Kode Voucher? Gunakan skrng</h4>';
         bar += '</button>';
     bar += '</a>';
