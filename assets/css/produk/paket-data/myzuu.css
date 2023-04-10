@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.loadingspinner {
+    --square: 26px;
+    --offset: 30px;
+    --duration: 2.4s;
+    --delay: 0.2s;
+    --timing-function: ease-in-out;
+    --in-duration: 0.4s;
+    --in-delay: 0.1s;
+    --in-timing-function: ease-out;
+    width: calc(3 * var(--offset) + var(--square));
+    height: calc(2 * var(--offset) + var(--square));
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.loadingspinner div {
+    display: inline-block;
+    background: #42a5f5;
+    border: none;
+    border-radius: 5px;
+    width: var(--square);
+    height: var(--square);
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    font-size: 6pt;
+    color: black;
+}
+
+.loadingspinner #square1 {
+    left: calc(0 * var(--offset));
+    top: calc(0 * var(--offset));
+    animation: square1 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square2 {
+    left: calc(0 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square2 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square3 {
+    left: calc(1 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square3 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(2 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square4 {
+    left: calc(2 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square4 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(3 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+.loadingspinner #square5 {
+    left: calc(3 * var(--offset));
+    top: calc(1 * var(--offset));
+    animation: square5 var(--duration) var(--delay) var(--timing-function) infinite,
+        squarefadein var(--in-duration) calc(4 * var(--in-delay)) var(--in-timing-function) both;
+}
+
+@keyframes square1 {
+    0% {
+        left: calc(0 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    8.333% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square2 {
+    0% {
+        left: calc(0 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    8.333% {
+        left: calc(0 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    16.67% {
+        left: calc(1 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    25.00% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    83.33% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    91.67% {
+        left: calc(1 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    100% {
+        left: calc(0 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+}
+
+@keyframes square3 {
+
+    0%,
+    100% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    16.67% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    25.00% {
+        left: calc(1 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    33.33% {
+        left: calc(2 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    41.67% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    66.67% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    75.00% {
+        left: calc(2 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    83.33% {
+        left: calc(1 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    91.67% {
+        left: calc(1 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square4 {
+    0% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    33.33% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    41.67% {
+        left: calc(2 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    50.00% {
+        left: calc(3 * var(--offset));
+        top: calc(2 * var(--offset));
+    }
+
+    58.33% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes square5 {
+    0% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    50.00% {
+        left: calc(3 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    58.33% {
+        left: calc(3 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    66.67% {
+        left: calc(2 * var(--offset));
+        top: calc(0 * var(--offset));
+    }
+
+    75.00% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+
+    100% {
+        left: calc(2 * var(--offset));
+        top: calc(1 * var(--offset));
+    }
+}
+
+@keyframes squarefadein {
+    0% {
+        transform: scale(0.75);
+        opacity: 0.0;
+    }
+
+    100% {
+        transform: scale(1.0);
+        opacity: 1.0;
+    }
+}
+
+* {
+    font-family: 'Muli'
+}
+
+body {
+    background-color: #EDF1FC
+}
+
+p {
+    margin: 0;
+    font-size: 13px
+}
+
+input {
+    border: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.elz-bg-header {
+    background-color: #9442fe;
+    height: 110px;
+    border-radius: 0px 0 50px 50px;
+}
+
+.elz-container-panel {
+    padding: 0 10px;
+    margin-top: -80px
+}
+
+.elz-panel-header {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 1px;
+}
+
+.warn {
+    font-size: 15px
+}
+
+.input {
+    width: 100%
+}
+
+.form-input {
+    border: 1px solid #42a5f5;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+
+}
+
+.img-contact {
+    width: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #9442fe;
+
+}
+
+.contact-barcode {
+    margin: 0 5px
+}
+
+.contact {
+    width: 20%
+}
+
+label {
+    font-size: 13px;
+}
+
+.label-input {
+    position: absolute;
+    margin-top: -25px;
+    font-weight: bold;
+    z-index: 1;
+    color: #777777
+}
+
+.btn-pulsa {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-pulsa p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.bg-pulsa-active {
+    background-color: #9442fe;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+.pilihan-operator {
+    margin-bottom: 35px;
+}
+
+#namaOperator {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.pilihan-pulsa {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 5px 1px;
+    padding: 5px;
+    border-radius: 5px
+}
+
+.t-load {
+    font-size: 15px
+}
+
+.produk-none img {
+    width: 75%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 1px;
+}
+
+.produk-none p {
+    font-size: 18px
+}
+
+.loading {
+    margin-top: 50px
+}
+
+.cerd {
+    background-image: url('https://img.freepik.com/free-vector/copy-space-wavy-white-background-layers_23-2148845469.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 1px;
+}
+
+.nama-produk {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.harga-produk {
+    font-size: 16px;
+    color: #9442fe;
+}
+
+.bg-canvas {
+    background-color: #9442fe;
+    color: white;
+}
+
+.offcanvas-bottom {
+    height: auto !important;
+}
+
+.offcanvas-start {
+    width: 75% !important;
+}
+
+.rc {
+    font-size: 18px;
+}
+
+.indx {
+    font-size: 14px;
+    opacity: 0.7
+}
+
+.val {
+    font-size: 14px;
+}
+
+.dashed {
+    border-top: 2px dashed #8c8b8b;
+}
+
+.bo {
+    border-top: 2px solid #8c8b8b;
+}
+
+.btn-beli {
+    background-color: #9442fe;
+    border: #9442fe;
+    color: #f7f3ff;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white
+  }
+  
+  .btn-batal {
+    background-color: #f7f3ff;
+    border: #f7f3ff;
+    color: #9442fe;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  .offcanvas-end {
+    width: 100% !important
+  }
+  
+  .bg-canvas-start {
+    background-color: #9442fe;
+    color: #fff
+  }
+
+.bg-src {
+    background-color: transparent;
+}
+
+.name-paket {
+    font-size: 18px
+}
+
+.paket-myzuu {
+    padding-left: 10px;
+}
+
+.cardkat,
+.cardSubkat {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+}
+
+.cardkat p,
+.cardSubkat p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#src {
+    font-size: 13px;
+    font-weight: bold
+}
+
+.val-cek {
+    color: #42a5f5
+}
+
+.pilih-wall {
+    font-size: 16px;
+    margin-top: 4px;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: #42a5f5;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px 1px;
+}

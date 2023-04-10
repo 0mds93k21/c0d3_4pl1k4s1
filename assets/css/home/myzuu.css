@@ -1,0 +1,551 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-myzuu {
+    display: flex;
+    padding: 10px;
+    background: #9442fe;
+}
+
+.name-user {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+}
+
+.name-user p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: white;
+}
+
+.name-user .name {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.skeleton {
+    position: relative;
+}
+.skeleton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: linear-gradient(90deg, #eee, #f9f9f9, #eee);
+    background-size: 200%;
+    animation: skeleton 1s infinite reverse;
+}
+@keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+/* bg-box-saldo */
+.bg-myzuu {
+    background: #9442fe;
+    padding: 0px;
+    border-radius: 0px 0px 15% 15%;
+    height: 190px;
+}
+
+.box-myzuu {
+    background: white;
+    padding: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box-myzuu2 {
+    background: white;
+    padding: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.text-wallet {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.text-wallet h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: black;
+    margin-top: 4px;
+}
+
+.text-wallet p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: grey;
+}
+
+.image-wallet img {
+    width: 40px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #9442fe;
+    margin-left: 5px;
+    box-shadow: rgba(30, 133, 236, 0.2) 0px 8px 24px;
+}
+
+.plus-wallet img {
+    width: 35px;
+    padding: 5px;
+    background: orangered;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    box-shadow: rgba(255, 136, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.notification button img {
+    width: 20px;
+}
+
+.notification button {
+    border-radius: 12px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.badge {
+    font-size: 8px;
+}
+
+/* TAB */
+.tab {
+    overflow: hidden;
+    border: none;
+    background: aliceblue;
+    width: 90%;
+    margin-left: 4.5%;
+    display: flex;
+    text-align: center;
+    border-radius: 100px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #5b5a5c;
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.tab button.active {
+    background: #9442fe;
+    color: #fff;
+    border-radius: 100px;
+    animation: fade-in-left .5s ease;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.tabcontent {
+    display: none;
+}
+
+/* MENU */
+/* CSS MENU TOPUP */
+.myzuu-grid4 {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: grid;
+    border: none;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.menu-list {
+    border: none;
+    background: transparent;
+
+}
+
+.menu-list .img-myzuu {
+    width: 42px;
+    background: rgba(148, 66, 254, 255);
+    background: linear-gradient(180deg, rgba(148, 66, 254, 255) 0%, rgba(148, 66, 254, 255) 100%);
+    padding: 9px;
+    border-radius: 14px;
+    animation: roll-in 1s ease;
+    box-shadow: rgba(30, 133, 236, 0.2) 0px 8px 24px;
+}
+
+.menu-list .thumbnail-img {
+    width: 42px;
+    padding: 0px;
+    border-radius: 14px;
+    animation: roll-in 1s ease;
+}
+
+.menu-list p {
+    font-size: 11px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    animation: fade-in 2s linear;
+}
+
+/* slide */
+.swiper-wrapper,
+.swiper-container {
+    z-index: 1;
+    display: flex;
+    background: transparent;
+    margin-top: -5px;
+    padding-bottom: 28px;
+}
+
+.swiper-slider-center {
+    position: relative;
+    padding: 25px 0 0 0;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.swiper-slider-center .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-slider-center .swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-slider-center .swiper-pagination-custom,
+.swiper-slider-center .swiper-pagination-fraction {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.swiper-slider-center .swiper-pagination-bullet {
+    opacity: 0.3;
+    transition: 300ms ease-in-out;
+    background-color: #AC92EC;
+    z-index: -2;
+}
+
+.swiper-slider-center .swiper-pagination-bullet-active {
+    opacity: 0.8;
+    width: 25px;
+    border-radius: 8px;
+    background-color: #9442fe;
+}
+
+/* KEYFRAME */
+.fade-in-left {
+    animation: fade-in-left 2s ease infinite;
+}
+
+@keyframes fade-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.roll-in {
+    animation: roll-in 2s ease infinite;
+}
+
+@keyframes roll-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) rotate(-120deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+.roll-out {
+    animation: roll-out 2s ease infinite;
+}
+
+@keyframes roll-out {
+    0% {
+        opacity: 1;
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(100%) rotate(120deg);
+    }
+}
+
+.fade-in {
+    animation: fade-in 2s linear infinite;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.swing {
+    transform-origin: top center;
+    animation: swing 2s ease infinite;
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.notice {
+    padding: 10px;
+}
+
+.notice h5 {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.button-myzuu-produk2 {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 290px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.lainnya-event {
+    font-size:14px;
+    color:black;
+    float:right;
+    margin-top:-20px;
+    margin-right:10px;
+}
+
+.info-title {
+    font-size:14px;
+    font-weight:bold;
+}
+.info-subtitle {
+    margin:0px;
+    font-weight:400;
+    font-size:12px;
+}
+
+.button-myzuu-produk2 img {
+    width: 100%;
+    padding: 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.button-myzuu-produk2 p {
+    font-size: 3vw;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.button-myzuu-produk2 h4 {
+    font-size: 3vw;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#second {
+
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+}
+
+div.scrollmenu {
+    background-color: transparent;
+    overflow: auto;
+    clear: both;
+    white-space: nowrap;
+}
+
+div.scrollmenu button {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #fff;
+}
+
+div.scrollmenu p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.title__el__menarik {
+    color: #1C1362;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.paragraph__el__update {
+    color: rgb(104, 104, 104);
+    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.card-blog {
+    padding-top: 10px;
+    margin-top: 15px;
+    display: grid;
+    margin: 1px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card-blog a {
+    text-decoration: none;
+}
+
+.card-body-blog {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.11);
+    height: 228px;
+    position: relative;
+}
+
+.img-card-myzuu {
+    width: 100%;
+    height: 85px;
+    border-radius: 10px 10px 0 0;
+}
+
+.text-card-blog {
+    padding: 5px 10px 20px;
+}
+
+.title-blog {
+    margin: 0;
+    padding-top: 10px;
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+}
+
+.paragraph-blog {
+    margin: 8px 0;
+    color: rgb(104, 104, 104);
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: 13px;
+}
+
+.link-blog {
+    color: rgb(48, 178, 230);
+    text-decoration: none;
+    font-size: 12.4px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container__cards__menarik {
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
