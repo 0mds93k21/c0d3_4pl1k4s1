@@ -9,7 +9,7 @@ $(function () {
         bar += '</button>';
     bar += '</a>';
 
-    bar += '<a href="#home">';
+    bar += '<a href="https://myzuu.webtoko.net/akun/?page=coin">';
         bar += '<button class="button-myzuu-produk2">';
             bar += '<img src="https://sc.myzuu.my.id/assets/img/home/event/2.png" alt="Myzuu">';
             bar += '<p>Event Jujutsu Kaisen</p>';
