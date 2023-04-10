@@ -6,7 +6,7 @@ $(function () {
    
         bar += '<div class="card-body-blog">';
             bar += '<a href="https://myzuu.webtoko.net/digital/194780">';
-                bar += '<img src="https://sc.myzuu.my.id/assets/img/info/blog/1.png" alt="Myzuu" class="img-card-myzuu" />';
+                bar += '<img src="https://sc.myzuu.my.id/assets/img/home/blog/1.png" alt="Myzuu" class="img-card-myzuu" />';
                 bar += '<div class="text-card-blog">';
                     bar += '<h2 class="title-blog">Pusat Bantuan</h2>';
                     bar += '<p class="paragraph-blog">';
@@ -19,7 +19,7 @@ $(function () {
 
         bar += '<div class="card-body-blog">';
             bar += '<a href="https://myzuu.webtoko.net/pages?voucher">';
-                bar += '<img src="https://sc.myzuu.my.id/assets/img/info/blog/2.png" alt="Myzuu" class="img-card-myzuu" />';
+                bar += '<img src="https://sc.myzuu.my.id/assets/img/home/blog/2.png" alt="Myzuu" class="img-card-myzuu" />';
                 bar += '<div class="text-card-blog">';
                     bar += '<h2 class="title-blog">Promo Voucher Favorit</h2>';
                     bar += '<p class="paragraph-blog">';
@@ -32,7 +32,7 @@ $(function () {
 
         bar += '<div class="card-body-blog">';
             bar += '<a href="https://bio.andrep.my.id/">';
-                bar += '<img src="https://sc.myzuu.my.id/assets/img/info/blog/3.png" alt="Myzuu" class="img-card-myzuu" />';
+                bar += '<img src="https://sc.myzuu.my.id/assets/img/home/blog/3.png" alt="Myzuu" class="img-card-myzuu" />';
                 bar += '<div class="text-card-blog">';
                     bar += '<h2 class="title-blog">Cara TopUp MyzuuPay</h2>';
                     bar += '<p class="paragraph-blog">';
