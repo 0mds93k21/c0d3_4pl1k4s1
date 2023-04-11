@@ -4,11 +4,7 @@ $(function () {
     bar += '<div class="swiper-container swiper-slider-center">';
         bar += ' <div class="swiper-wrapper">';
 
-            bar += ' <div class="swiper-slide">';
-                bar += ' <a href="javascript:void(0)">';
-                    bar += ' <img src="https://sc.myzuu.my.id/assets/img/home/slider/lebaran-spesial.png" alt="Myzuu" />';
-                bar += ' </a>';
-            bar += ' </div>';
+
 
             bar += ' <div class="swiper-slide">';
                 bar += ' <a href="https://myzuu.webtoko.net/digital/201174">';
