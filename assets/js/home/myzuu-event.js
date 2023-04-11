@@ -1,14 +1,6 @@
 $(function () {
     var bar = '';
 
-    bar += '<a href="https://myzuu.webtoko.net/digital/201174">';
-        bar += '<button class="button-myzuu-produk2">';
-            bar += '<img src="https://sc.myzuu.my.id/assets/img/home/slider/pubg.png" alt="Myzuu">';
-            bar += '<p>Kini Myzuu menyediakan TopUp Game Pubg Mobile Region Indonesia</p>';
-            bar += '<h4>Yuk buruan topup sekarang!</h4>';
-        bar += '</button>';
-    bar += '</a>';
-
     bar += '<a href="https://myzuu.webtoko.net/digital/200540">';
         bar += '<button class="button-myzuu-produk2">';
             bar += '<img src="https://sc.myzuu.my.id/assets/img/home/slider/allstar-themed.png" alt="Myzuu">';
