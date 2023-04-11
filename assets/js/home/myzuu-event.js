@@ -5,7 +5,7 @@ $(function () {
         bar += '<button class="button-myzuu-produk2">';
             bar += '<img src="https://sc.myzuu.my.id/assets/img/home/event/pubg.png" alt="Myzuu">';
             bar += '<p>Kini Myzuu menyediakan TopUp game Pubg Mobile Region Indonesia</p>';
-            bar += '<h4>Yuk buruan topup sekarang juga!/h4>';
+            bar += '<h4>Yuk buruan topup sekarang juga!</h4>';
         bar += '</button>';
     bar += '</a>';
 
