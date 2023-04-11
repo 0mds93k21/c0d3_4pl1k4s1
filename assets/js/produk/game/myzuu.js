@@ -43,6 +43,23 @@ const urlKategori = [
   },
 
   {
+    "nama": "PUBG",
+    "cekID": "#",
+    "gambar": "https://sc.myzuu.my.id/assets/img/produk/game/pubg/myzuu.png",
+    "kode": "1InputGame",
+    "categoryKe1": {
+      "nama": "UC Pubgm",
+      "url": "umum-429707",
+      "data": "grid"
+    },
+    "categoryKe2": {
+      "nama": "Membership",
+      "url": "",
+      "data": "list"
+    }
+  },
+
+  {
     "nama": "Point Blank",
     "cekID": "pointblank",
     "gambar": "https://sc.myzuu.my.id/assets/img/produk/game/point-blank/myzuu.png",

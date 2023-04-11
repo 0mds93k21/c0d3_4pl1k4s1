@@ -11,6 +11,12 @@ $(function () {
             bar += ' </div>';
 
             bar += ' <div class="swiper-slide">';
+                bar += ' <a href="https://myzuu.webtoko.net/digital/201174">';
+                    bar += ' <img src="https://sc.myzuu.my.id/assets/img/home/slider/pubg.png" alt="Myzuu" />';
+                bar += ' </a>';
+            bar += ' </div>';
+
+            bar += ' <div class="swiper-slide">';
                 bar += ' <a href="https://myzuu.webtoko.net/digital/200540">';
                     bar += ' <img src="https://sc.myzuu.my.id/assets/img/home/slider/starlight-april.png" alt="Myzuu" />';
                 bar += ' </a>';
