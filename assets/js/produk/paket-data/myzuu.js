@@ -6,7 +6,7 @@ const urlKategori = [
         
         "Telkomsel": {
             "nama": "Telkomsel",
-            "gambar": "https://i.postimg.cc/rFZpDSTX/images-2022-10-07-T132212-320.jpg",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/telkomsel/myzuu.jpg",
             "data": [
 
                 {
@@ -26,17 +26,54 @@ const urlKategori = [
         },
 
         "Indosat": {
-            "nama": "Voucher Indosat",
-            "gambar": "https://i.postimg.cc/bw8jNrDc/images-2022-10-07-T132401-607.jpg",
+            "nama": "Indosat",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/indosat/myzuu.jpg",
             "data": [
 
                 {
-                    "nama": "",
-                    "url": "",
+                    "nama": "Umum",
+                    "url": "umum-429808",
                 },
                 {
-                    "nama": "",
-                    "url": "",
+                    "nama": "Yellow",
+                    "url": "yellow-429809",
+                },
+                {
+                    "nama": "Freedom Combo",
+                    "url": "freedom-combo-429810",
+                },
+                {
+                    "nama": "Freedom Harian",
+                    "url": "freedom-harian-429811",
+                },
+                {
+                    "nama": "Freedom Internet",
+                    "url": "freedom-internet-429812",
+                },
+
+            ]
+        },
+
+        "Axis": {
+            "nama": "Axis",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/axis/myzuu.jpg",
+            "data": [
+
+                {
+                    "nama": "Mini",
+                    "url": "mini-429884",
+                },
+                {
+                    "nama": "Bronet",
+                    "url": "bronet-429885",
+                },
+                {
+                    "nama": "Owsem",
+                    "url": "owsem-429886",
+                },
+                {
+                    "nama": "Ekstra",
+                    "url": "ekstra-429887",
                 },
 
             ]
@@ -62,23 +99,6 @@ const urlKategori = [
         "XL Axiata": {
             "nama": "Voucher XL",
             "gambar": "https://i.postimg.cc/rm2HgY16/download-3.jpg",
-            "data": [
-
-                {
-                    "nama": "",
-                    "url": "",
-                },
-                {
-                    "nama": "",
-                    "url": "",
-                },
-
-            ]
-        },
-
-        "Axis": {
-            "nama": "Voucher Axis",
-            "gambar": "https://i.postimg.cc/qRfqknKc/images-2022-10-07-T132537-156.jpg",
             "data": [
 
                 {

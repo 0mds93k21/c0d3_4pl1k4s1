@@ -8,29 +8,31 @@ let galleryarray = [
     {
         id: 1,
         onclick: "getValue(dataTsel)",
-        img: "https://i.postimg.cc/rFZpDSTX/images-2022-10-07-T132212-320.jpg",
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/telkomsel/myzuu.jpg",
         text: "Paket Data Telkomsel"
     },
     
-     /* Belum Aktif /
     {
         id: 2,
         onclick: "getValue(dataIsat)",
-        img: "https://i.postimg.cc/bw8jNrDc/images-2022-10-07-T132401-607.jpg",
-        text: "Voucher Indosat"
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/indosat/myzuu.jpg",
+        text: "Paket Data Indosat"
     },
+
+     {
+        id: 4,
+        onclick: "getValue(dataAxis)",
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/axis/myzuu.jpg",
+        text: "Paket Data Axis"
+    },
+/* Belum Aktif /
     {
         id: 3,
         onclick: "getValue(dataXL)",
         img: "https://i.postimg.cc/rm2HgY16/download-3.jpg",
         text: "Voucher XL"
     },
-    {
-        id: 4,
-        onclick: "getValue(dataAxis)",
-        img: "https://i.postimg.cc/qRfqknKc/images-2022-10-07-T132537-156.jpg",
-        text: "Voucher Axis"
-    },
+
     {
         id: 5,
         onclick: "getValue(dataThree)",
