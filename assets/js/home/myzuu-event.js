@@ -1,6 +1,14 @@
 $(function () {
     var bar = '';
 
+    bar += '<a href="https://help.myzuu.my.id/help/alfamart/top-up-alfamart/">';
+        bar += '<button class="button-myzuu-produk2">';
+            bar += '<img src="https://sc.myzuu.my.id/assets/img/home/event/alfamart.png" alt="Myzuu">';
+            bar += '<p>Myzuu sudah dapat top up melalui alfamart terdekat</p>';
+            bar += '<h4>Yuk buruan topup sekarang juga!</h4>';
+        bar += '</button>';
+    bar += '</a>';
+
     bar += '<a href="https://myzuu.webtoko.net/digital/201174">';
         bar += '<button class="button-myzuu-produk2">';
             bar += '<img src="https://sc.myzuu.my.id/assets/img/home/event/pubg.png" alt="Myzuu">';
