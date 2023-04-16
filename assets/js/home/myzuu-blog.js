@@ -42,6 +42,19 @@ $(function () {
                 bar += '</div>';
             bar += '</a>';
         bar += '</div>';
+
+        bar += '<div class="card-body-blog">';
+            bar += '<a href="https://override.bukaolshop.net/tripay/create_link?id=207306ef05eb46f937a959aed3f0e505604d7f70fdce2b6efc34fca0a4dbb1eb&app=X0f">';
+                bar += '<img src="https://sc.myzuu.my.id/assets/img/home/blog/3.png" alt="Myzuu" class="img-card-myzuu" />';
+                bar += '<div class="text-card-blog">';
+                    bar += '<h2 class="title-blog">Cara TopUp MyzuuPay</h2>';
+                    bar += '<p class="paragraph-blog">';
+                        bar += 'Yuk Cek Cara TopUp Untuk MyzuuPay Disini!';
+                    bar += '</p>';
+                    bar += '<a href="https://override.bukaolshop.net/tripay/create_link?id=207306ef05eb46f937a959aed3f0e505604d7f70fdce2b6efc34fca0a4dbb1eb&app=X0f" class="link-blog">Cek Disini!</a>';
+                bar += '</div>';
+            bar += '</a>';
+        bar += '</div>';
         
     bar += '</div>';
 
