@@ -32,6 +32,13 @@ let galleryarray = [
         img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/smartfren/myzuu.jpg",
         text: "Paket Data Smartfren"
     },
+
+    {
+        id: 5,
+        onclick: "getValue(dataThree)",
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/three/myzuu.jpg",
+        text: "Paket Data Three"
+    },
 /* Belum Aktif /
     {
         id: 3,

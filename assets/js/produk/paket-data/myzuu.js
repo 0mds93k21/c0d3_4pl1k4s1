@@ -109,17 +109,33 @@ const urlKategori = [
         },
 
         "Three": {
-            "nama": "Voucher Three",
-            "gambar": "https://i.postimg.cc/VkLmW5Y9/images-2022-10-07-T134356-702.jpg",
+            "nama": "Three",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/three/myzuu.jpg",
             "data": [
 
                 {
-                    "nama": "",
-                    "url": "",
+                    "nama": "Umum",
+                    "url": "umum-431990",
                 },
                 {
-                    "nama": "",
-                    "url": "",
+                    "nama": "Mini",
+                    "url": "mini-431991",
+                },
+                {
+                    "nama": "AlwaysOn",
+                    "url": "alwayson-431992",
+                },
+                {
+                    "nama": "GetMore",
+                    "url": "getmore-431993",
+                },
+                {
+                    "nama": "Mix",
+                    "url": "mix-431994",
+                },
+                {
+                    "nama": "Happy",
+                    "url": "happy-431995",
                 },
 
             ]
