@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+
+<p id="slider"></p>
+
+<script>
+function myFunction() {
+var greeting;
+var time = new Date().getHours();
+if (time>=0 && time<10) {
+    greeting = '<img     src="http://www.devtrix.net/sliderman/demos/demo/img/01.jpg"/>'
+} else if (time>=10 && time< 12) {
+    greeting = '<img src="http://www.devtrix.net/sliderman/demos/demo/img/02.jpg"/>'
+} else if (time>=12 && time< 16) {
+    greeting = '<img src="http://www.devtrix.net/sliderman/demos/demo/img/03.jpg"/>';
+} else if (time>=16 && time< 20) {
+    greeting = '<img src="http://www.devtrix.net/sliderman/demos/demo/img/04.jpg"/>'
+} else {
+    greeting = '<img src="http://www.devtrix.net/sliderman/demos/demo/img/05.jpg"/>'
+}
+document.getElementById("slider").innerHTML = greeting;
+}
+</script>
+
+</body>
+</html>

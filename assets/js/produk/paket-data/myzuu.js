@@ -79,6 +79,35 @@ const urlKategori = [
             ]
         },
 
+        "Smartfren": {
+            "nama": "Smartfren",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/smartfren/myzuu.jpg",
+            "data": [
+
+                {
+                    "nama": "Umum",
+                    "url": "umum-431977",
+                },
+                {
+                    "nama": "Unlimited",
+                    "url": "unlimited-431978",
+                },
+                {
+                    "nama": "Volume",
+                    "url": "volume-431979",
+                },
+                {
+                    "nama": "Nonstop",
+                    "url": "nonstop-431981",
+                },
+                {
+                    "nama": "Unlimited Nonstop",
+                    "url": "unlimited-nonstop-431982",
+                },
+
+            ]
+        },
+
         "Three": {
             "nama": "Voucher Three",
             "gambar": "https://i.postimg.cc/VkLmW5Y9/images-2022-10-07-T134356-702.jpg",
@@ -99,23 +128,6 @@ const urlKategori = [
         "XL Axiata": {
             "nama": "Voucher XL",
             "gambar": "https://i.postimg.cc/rm2HgY16/download-3.jpg",
-            "data": [
-
-                {
-                    "nama": "",
-                    "url": "",
-                },
-                {
-                    "nama": "",
-                    "url": "",
-                },
-
-            ]
-        },
-
-        "Smartfren": {
-            "nama": "Voucher Smartfren",
-            "gambar": "https://i.postimg.cc/nL9KR4Zq/IMG-20221007-135231.jpg",
             "data": [
 
                 {

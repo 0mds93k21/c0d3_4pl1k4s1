@@ -20,10 +20,17 @@ let galleryarray = [
     },
 
      {
-        id: 4,
+        id: 3,
         onclick: "getValue(dataAxis)",
         img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/axis/myzuu.jpg",
         text: "Paket Data Axis"
+    },
+    
+    {
+        id: 4,
+        onclick: "getValue(dataSfren)",
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/smartfren/myzuu.jpg",
+        text: "Paket Data Smartfren"
     },
 /* Belum Aktif /
     {
@@ -38,12 +45,6 @@ let galleryarray = [
         onclick: "getValue(dataThree)",
         img: "https://i.postimg.cc/VkLmW5Y9/images-2022-10-07-T134356-702.jpg",
         text: "Voucher Three"
-    },
-    {
-        id: 6,
-        onclick: "getValue(dataSfren)",
-        img: "https://i.postimg.cc/nL9KR4Zq/IMG-20221007-135231.jpg",
-        text: "Voucher Smartfren"
     },
     /* Belum Aktif */
 
