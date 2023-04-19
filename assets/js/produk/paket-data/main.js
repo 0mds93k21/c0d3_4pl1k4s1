@@ -39,21 +39,13 @@ let galleryarray = [
         img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/three/myzuu.jpg",
         text: "Paket Data Three"
     },
-/* Belum Aktif /
-    {
-        id: 3,
-        onclick: "getValue(dataXL)",
-        img: "https://i.postimg.cc/rm2HgY16/download-3.jpg",
-        text: "Voucher XL"
-    },
 
     {
-        id: 5,
-        onclick: "getValue(dataThree)",
-        img: "https://i.postimg.cc/VkLmW5Y9/images-2022-10-07-T134356-702.jpg",
-        text: "Voucher Three"
+        id: 6,
+        onclick: "getValue(dataXL)",
+        img: "https://sc.myzuu.my.id/assets/img/produk/paket-data/xl/myzuu.jpg",
+        text: "Paket Data XL"
     },
-    /* Belum Aktif */
 
 ];
 

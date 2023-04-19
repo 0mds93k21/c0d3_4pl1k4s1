@@ -142,17 +142,13 @@ const urlKategori = [
         },
 
         "XL Axiata": {
-            "nama": "Voucher XL",
-            "gambar": "https://i.postimg.cc/rm2HgY16/download-3.jpg",
+            "nama": "XL",
+            "gambar": "https://sc.myzuu.my.id/assets/img/produk/paket-data/xl/myzuu.jpg",
             "data": [
 
                 {
-                    "nama": "",
-                    "url": "",
-                },
-                {
-                    "nama": "",
-                    "url": "",
+                    "nama": "Umum",
+                    "url": "umum-432500",
                 },
 
             ]
